@@ -1,4 +1,5 @@
 //Creating the Intern class from the Employee class 
+const Employee = require("./Employee");
 
 
 class Intern extends Employee {
@@ -12,7 +13,7 @@ class Intern extends Employee {
     }
 
     getRole() {
-        return Intern;
+        return "Intern";
     }
 }
 

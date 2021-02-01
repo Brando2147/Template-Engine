@@ -1,4 +1,6 @@
 //Creating the Engineer class from the Employee class 
+const Employee = require("./Employee");
+
 
 class Engineer extends Employee {
     constructor(name, id, email, github) {
@@ -11,7 +13,7 @@ class Engineer extends Employee {
     }
 
     getRole() {
-        return Engineer;
+        return "Engineer";
     }
 }
 
