@@ -24,9 +24,9 @@ This application will generate a website with details for a development team.
  
 
 ## Demo
-[Demo](../Assets/Demo.gif)
+![Demo](./Assets/Demo.gif)
 
-[Team](../Assets/Team.png)
+![Team](./Assets/Team.png)
 
  ## Usage
 
