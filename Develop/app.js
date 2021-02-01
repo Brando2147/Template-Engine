@@ -84,7 +84,7 @@ function addEmployee() {
         {
             type: 'input',
             name: 'addEmployee',
-            message: 'Would you like to add another employee?',
+            message: 'Would you like to add another employee? (y/n)',
         },
 
     ]).then(function (data) {
